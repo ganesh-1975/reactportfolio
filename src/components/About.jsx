@@ -1,4 +1,4 @@
-import img from "../assets/image/code.jpg";
+import resume from "../assets/image/Ganesh Resume V1.pdf";
 
 function About() {
   return (
@@ -27,7 +27,7 @@ function About() {
           </p>
 
           <p className="text-neutral-500 mb-6">
-            <a href="image/Ganesh Resume V1.pdf" download>
+            <a href={resume} download>
               click here to dowmload Ganesh Resume{" "}
             </a>
           </p>
