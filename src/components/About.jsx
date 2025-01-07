@@ -1,4 +1,4 @@
-import resume from "../assets/image/Ganesh Resume V1.pdf";
+import resume from "../assets/image/Adboxer Ganesh resume.pdf";
 
 function About() {
   return (

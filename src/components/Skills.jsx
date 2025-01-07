@@ -1,5 +1,5 @@
-import IconCloud from "@/components/magicui/icon-cloud";
 import ShinyButton from "@/components/magicui/shiny-button";
+import { IconCloud } from "@/components/magicui/icon-cloud";
 
 function Skills() {
   const slugs = [
@@ -36,6 +36,11 @@ function Skills() {
     "tailwindcss",
     "bootstrap",
   ];
+
+  const images = slugs.map(
+    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`
+  );
+
   return (
     <>
       <div
@@ -62,7 +67,7 @@ function Skills() {
         </div>
 
         <div className="relative flex  w-full  items-center justify-center overflow-hidden rounded-full  bg-black bordr   pb-20 pt-8 ">
-          <IconCloud iconSlugs={slugs} />
+          <IconCloud images={images} />
         </div>
       </div>
     </>

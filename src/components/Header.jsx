@@ -4,7 +4,7 @@ import WordRotate from "@/components/magicui/word-rotate";
 function Header() {
   return (
     <div id="home">
-      <header className="flex items-center justify-center gap-6 mt-20 md:flex-row flex-col">
+      <header className="flex items-center justify-center gap-6 mt-20 sm:flex-row flex-col">
         <img src={img} className="size-44 rounded-full" />
 
         <div className="grow ">
